@@ -1,0 +1,158 @@
+.star-rating {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+
+.star-rating .foreground {
+    position: absolute
+}
+
+.icon-star, .icon-star-alt{
+      vertical-align: top;
+      background: url(../images/review.png);
+        height: 13px;
+        width: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        float: left;
+        margin-left: 2px;
+        opacity: 0.2;
+        
+}
+.star-rating-input {
+    position: absolute;
+    margin-left: -9999px
+}
+
+.star-rating:not(:checked) .star-rating-input {
+    display: none
+}
+
+.star-rating-input.checked~.star-rating-star {
+
+    color: #ffb400
+}
+
+/*.star-rating-input:checked~.star-rating-star {
+    color: #ffb400;
+    vertical-align: top;
+      background: url(../images/review.png);
+        height: 13px;
+        width: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        float: left;
+        /*margin-left: 2px;*/
+}*/
+
+.star-rating-star {
+    float: right;
+    color: #82888a;
+    cursor: pointer
+}
+
+.star-rating-definition {
+    color: #007a87;
+    position: absolute;
+    top: 40%;
+    left: 110%;
+    width: 200px;
+    display: none
+}
+
+.star-rating-input:checked+.star-rating-star .star-rating-definition,
+.star-rating:hover .star-rating-star:hover .star-rating-definition,
+.star-rating:hover .star-rating-input:checked+.star-rating-star:hover .star-rating-definition {
+    display: block
+}
+
+.star-rating:hover .star-rating-definition,
+.star-rating:hover .star-rating-input:checked+.star-rating-star .star-rating-definition {
+    display: none
+}
+
+.star-rating:hover .star-rating-definition,
+.star-rating:hover .star-rating-input.checked+.star-rating-star .star-rating-definition {
+    display: none
+}
+
+.star-rating-input.checked+.star-rating-star .star-rating-definition,
+.star-rating:hover .star-rating-star:hover .star-rating-definition,
+.star-rating:hover .star-rating-input.checked+.star-rating-star:hover .star-rating-definition {
+    display: block
+}
+
+.decimal-star-rating-wrapper {
+    display: inline-block
+}
+
+.decimal-star-rating {
+    display: inline-block;
+    position: relative;
+    margin-left: 5px
+}
+
+.decimal-star-rating__icon {
+    color: #ffc332
+}
+
+.thumbs-widget label {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.thumbs-widget .icon {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.thumbs-widget input {
+    display: none;
+    margin-left: -9999px;
+    position: absolute
+}
+
+.thumbs-widget input:checked+label,
+.thumbs-widget input:checked+label .icon {
+    color: #ff5a5f
+}
+
+.thumbs-widget input.checked+label,
+.thumbs-widget input.checked+label .icon {
+    color: #ff5a5f
+}
+
+.text-normal {
+    font-weight: normal
+}
+
+.panel-body-condensed {
+    padding: 13px
+}
+
+label.invalid {
+    color: #f72c37
+}
+
+.listing-img {
+    padding-bottom: 67%
+}
+
+.nps-score label {
+    float: left;
+    text-align: center;
+    width: 8.33333%;
+    padding: 12.5px
+}
+
+.nps-score input[type="radio"] {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+
+#yearDate[readonly] {background-color: white !important;}

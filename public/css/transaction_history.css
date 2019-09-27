@@ -1,0 +1,29 @@
+#transaction-history .transaction-tab table {
+    background-color: #FFFFFF
+}
+
+#transaction-history .export-csv-link-container {
+    margin: -10px 0 10px 0;
+    text-align: right
+}
+
+#transaction-history .line-item-positive {
+    color: #3fb34f
+}
+
+#transaction-history a[data-behavior='tooltip']:hover {
+    text-decoration: none;
+    color: #959595
+}
+
+#transaction-history .pagination {
+    height: auto
+}
+
+#transaction-history .status-text {
+    text-align: center
+}
+
+#transaction-history .select select {
+    max-width: 310px
+}

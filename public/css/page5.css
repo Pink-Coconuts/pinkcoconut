@@ -1,0 +1,285 @@
+.share-itinerary {
+    position: relative
+}
+
+.share-itinerary hr.divider {
+    width: 100%;
+    border-color: #cacccd
+}
+
+.share-itinerary .typeahead-panel-body {
+    padding: 10px
+}
+
+.share-itinerary .email-input-typeahead-container .tt-menu {
+    border-top: none
+}
+
+.share-itinerary .share-error {
+    text-align: left
+}
+
+.share-itinerary .share-error .alert-icon {
+    display: none
+}
+
+.share-itinerary .friend-email {
+    position: absolute;
+    width: 100%
+}
+
+@media (max-width: 767px) {
+    .share-itinerary .friend-email {
+        padding-right: 24px
+    }
+}
+
+.share-itinerary .star-rating {
+    position: relative;
+    padding: 0
+}
+
+.share-itinerary .star-rating .foreground {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.share-itinerary .star-rating .icon {
+    letter-spacing: 3px
+}
+
+.share-itinerary .listing-card .listing-card-spacing {
+    margin-bottom: -15px
+}
+
+.share-itinerary .listing-card .reservation-dates {
+    padding-right: 25px
+}
+
+.share-itinerary .additional-email-input {
+    margin-bottom: 15px
+}
+
+.share-itinerary .black-dot {
+    padding: 3px
+}
+
+/*.share-itinerary .cover-photo-container {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+
+.share-itinerary .cover-photo-container img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+*/
+.share-itinerary textarea {
+    resize: none
+}
+
+.share-itinerary .remove-cotraveler-icon {
+    padding-right: 10px
+}
+
+.contact-importer-wrapper {
+    position: relative
+}
+
+.contact-importer-panel {
+    margin-top: -1px;
+    position: absolute;
+    width: 100%;
+    z-index: 100
+}
+
+.contact-importer-panel .email-app-image {
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: inline-block
+}
+
+.contact-importer-panel .email-app-image.gmail-icon {
+    background: url(../images/gmail.png);
+    background-size: cover
+}
+
+.contact-importer-panel .email-app-image.windowslive-icon {
+    background: url(../images/windowslive.png);
+    background-size: cover
+}
+
+.contact-importer-panel .email-app-image.yahoo-icon {
+    background: url(../images/yahoo.png);
+    background-size: cover
+}
+
+.typeahead-panel-body {
+    cursor: pointer;
+    padding: 0
+}
+
+.typeahead-panel-body .loading-indicator {
+    padding: 10px
+}
+
+.typeahead-panel-body:hover {
+    background: #f5f5f5
+}
+
+.email-input-typeahead-container {
+    position: relative
+}
+
+.email-input-typeahead-container .email-label {
+    display: inline-block
+}
+
+.email-input-typeahead-container .twitter-typeahead {
+    width: 100%
+}
+
+.email-input-typeahead-container .tt-menu {
+    overflow-y: auto;
+    padding: 0;
+    border: 1px solid #c4c4c4
+}
+
+.email-input-typeahead-container .tt-suggestion {
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #c4c4c4
+}
+
+.email-input-typeahead-container .tt-suggestion:last-child {
+    border-bottom-width: 0
+}
+
+.pill {
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    margin-right: 6px;
+    line-height: 28px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    padding: 0 6px
+}
+
+.pill.invalid {
+    background-color: #fff
+}
+
+.pill.invalid span {
+    border-bottom: 2px dotted #ffb400
+}
+
+.pill.selected {
+    background-color: #82888a;
+    color: #fff
+}
+
+.pill.selected .close-pill {
+    color: #fff
+}
+
+.input-tag-list {
+    padding: 6px;
+    padding-bottom: 0;
+    border-radius: 2px;
+    border: 1px solid #c4c4c4;
+    position: relative;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #fff;
+    margin: 0
+}
+
+.input-tag-list .input-list-item {
+    height: 34px;
+    width: 100%
+}
+
+.input-tag-list .input-list-item.has-tags {
+    width: auto;
+    padding: 0
+}
+
+.input-tag-list li {
+    padding: 0 6px
+}
+
+.input-tag-list input {
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    line-height: 28px;
+    margin-bottom: 6px;
+    font-size: 14px
+}
+
+.ie11 .input-tag-list input,
+.ie10 .input-tag-list input,
+.ie9 .input-tag-list input,
+.ie8 .input-tag-list input {
+    height: 28px
+}
+
+.close-pill {
+    padding-left: 6px;
+    color: #82888a;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px
+}
+
+.close-pill:hover,
+.close-pill:active {
+    color: #565a5c;
+    text-decoration: none
+}
+
+.header-icon.pull-left {
+    margin-right: 10px
+}
+
+.user-card+.user-card {
+    margin-left: 25px
+}
+
+.alert-block.alert-business-travel {
+    padding-left: 148px
+}
+
+.alert-block.alert-business-travel .icon {
+    height: 93px;
+    width: 93px;
+    position: absolute;
+    left: 28px;
+    top: 28px
+}
+
+.alert-block.alert-business-travel .icon-gift-credit-png {
+    background: url(../images/gift_credit.png) no-repeat;
+    background-size: contain
+}
+
+.alert-block.alert-business-travel .icon-suitcase-png {
+    background: url(../images/briefcase.png) no-repeat;
+    background-size: contain
+}
+
+.listing-card-spacing a:hover {
+    text-decoration: underline
+}

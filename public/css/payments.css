@@ -1,0 +1,124 @@
+.payment-method.cc {
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+.table.gift-credit-breakdown td {
+    vertical-align: middle
+}
+
+.cc-short-half {
+    width: 50%
+}
+
+.inner-addon .icon-lock {
+    position: absolute;
+    padding: 4px
+}
+
+.left-addon .icon-lock {
+    left: 0px
+}
+
+.right-addon .icon-lock {
+    right: 14px
+}
+
+.left-addon input {
+    padding-left: 30px
+}
+
+.right-addon input {
+    padding-right: 30px
+}
+
+.text-tight {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.gift-credit .val {
+    color: #3fb34f
+}
+
+@media (min-width: 1100px) {
+    .payments-listing-image {
+        height: 209px
+    }
+}
+
+@media (max-width: 767px) {
+    .payments-listing {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #dce0e0;
+        padding: 0 0 15px 0
+    }
+    .payments-listing .panel-body {
+        padding: 0;
+        border: none
+    }
+    .payments-listing-image {
+    float: left;
+    height: 144px;
+    width: 150px;
+    z-index: 1;
+}
+.payments-listing img.img-responsive-height {
+    height: 100% !important;
+    object-fit: cover;
+    width: 100%;
+    display: inline-block;
+}
+    .payments-listing-name {
+        background: #fff;
+        border: 1px solid #dce0e0;
+        height: 144px;
+        padding: 10px;
+        overflow: auto;
+    }
+}
+
+.book-it-btn-experiment-lima {
+    background-color: #8ce071;
+    border-bottom-color: #68d645;
+    border-color: #8ce071;
+    color: #fff
+}
+
+.book-it-btn-experiment-babu {
+    background-color: #00d1c1;
+    border-bottom-color: #009b90;
+    border-color: #00d1c1;
+    color: #fff
+}
+
+.book-it-btn-experiment-kazan {
+    background-color: #007a87;
+    border-bottom-color: #004a51;
+    border-color: #007a87;
+    color: #fff
+}
+
+@media (max-width: 767px) {
+    .payments-listing {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #dce0e0;
+        padding: 0 0 15px 0;
+        position: relative !important;
+        width: 100% !important;
+        left: 0px !important;
+    }
+}
+
+
+@media (max-width: 425px) {
+.payments-listing-image {
+    height: 175px;
+    width: 100%;
+ }
+ .payments-listing-name{height: auto;}
+}

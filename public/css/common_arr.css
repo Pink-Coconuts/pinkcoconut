@@ -1,0 +1,75 @@
+html[lang="ar"] .va-top.pull-left {
+    float: right;
+}
+html[lang="ar"] .text-muted.date.hide-sm.pull-left {
+    float: right;
+}
+html[lang="ar"] .reviews .col-md-2{
+	float: right;
+}
+html[lang="ar"] .conversation_page{
+	float: right;
+}
+html[lang="ar"] .calendarDaysHeader.text-right{
+	padding-right: 0px;
+}
+html[lang="ar"] .responsive-calendar.small .calendarDaysHeader li {
+    padding: 3px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+}
+html[lang="ar"] .whishlist_button{
+	text-align: left;
+}
+html[lang="ar"] .row.wishlists-body .col-4{
+	float: right;
+}
+html[lang="ar"] .count_section {
+    right: 20px;
+    left: auto;
+}
+html[lang="ar"] .payout_footer{
+    text-align: left;
+}
+
+
+@media (max-width: 1024px) {
+html[lang="ar"] .profile-view-right {
+    float: right;
+}
+html[lang="ar"] .tet1 .col-sm-4.show-sm{
+	float: right;
+}
+
+}
+
+
+@media (max-width: 767px) {
+html[lang="ar"] .arr_profile {
+    width: 100%;
+}
+
+html[lang="ar"] .row.wishlists-body .col-4 {
+    float: none;
+    width: 100%;
+}
+html[lang="ar"] .media.whishlist_category {
+    text-align: center;
+}
+html[lang="ar"] .media.whishlist_category > a {
+    float: none !important;
+    margin: 0 !important;
+}
+html[lang="ar"] .whishlist_button {
+    text-align: center;
+}
+}
+
+
+@media (max-width: 480px) {
+html[lang="ar"] .col-2.list_reserve_img a {
+    float: right;
+ }
+}

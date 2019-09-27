@@ -1,0 +1,58 @@
+#ie-modal-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000
+}
+
+#ie-modal-content {
+    position: absolute;
+    background-color: #FFF;
+    width: 20%;
+    top: 20%;
+    left: 40%;
+    padding: 30px;
+    z-index: 1001
+}
+
+#ie-modal-close {
+    position: relative;
+    margin-left: 90%
+}
+
+#ie-modal-close a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #BBB
+}
+
+.ie-btn {
+    border: 0px;
+    color: white;
+    background-color: #00a5f9
+}
+
+.ie-btn:hover {
+    color: white;
+    background-color: #0092d7
+}
+
+.ie-text {
+    line-height: 1.5;
+    font-weight: 400
+}
+
+form {
+    text-align: center
+}
+
+#ie-modal-content {
+    position: fixed
+}
+
+#ie-modal-bg {
+    top: 0;
+    left: 0;
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)
+}

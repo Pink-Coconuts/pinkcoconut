@@ -1,0 +1,1217 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');*/
+
+.home_filter {
+    display: block;
+    width: 100%;
+    padding: 20px 20px 15px;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 58px;
+    background: #fff;
+    z-index: 1;
+}
+.home_filter ul {
+    margin: 0;
+    padding: 0;
+}
+.home_filter li {
+    list-style: none;
+    display: inline-block;  
+    position: static;
+    margin-right: 6px;
+}
+.home_filter button {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    color: #484848;
+    font-weight: 400;
+    font-family: 'Comfortaa', cursive !important;
+    font-size: 15px;
+}
+.home_filter button.active {
+    background: #008489 !important;
+    color: #fff !important;
+    border: 1px solid #008489 !important;
+}
+.home_filter button:hover,.home_filter button:focus {
+text-decoration: none;
+outline: none;
+}
+.makent-header {
+    padding: 0px !important;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99;
+}
+.sidebar {
+    top: 0px;
+    position: relative;
+    left: auto;
+    width: 60%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    background: #f7f7f7;
+    display: inherit;
+    z-index: 0;
+}
+.guestbut1{
+	display: none;
+}
+.guestbut.open .guestbut1{
+	display: block;
+}
+.guestbut.close .guestbut1{
+	display: none;
+}
+.newdp{
+	opacity: 0.2;
+}
+.mapfil{
+	opacity: 0.2;
+}
+.sidesear.mapfil{
+	opacity: 0;
+	background: #fff;
+	height: 100%;
+    overflow: hidden;
+}
+.imged .needsclick{
+    font-size: 23px;
+}
+.newdp1{
+	opacity:1;
+}
+.guestbut1 {
+    position: absolute;
+    z-index: 1;
+   top: 65px;
+    border-radius: 5px;
+}
+.nameguest {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 25px 25px;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 0 14px 36px 2px rgba(0, 0, 0, 0.15) !important;
+}
+.nameguest1 {
+	width: 300px;
+}
+.nameguest2 {
+	width: 450px;
+}
+.nameguest3 {
+	width: 450px;
+}
+.value-button {
+    display: inline-block;
+    border: 1px solid #008489 !important;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px !important;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #008489 !important;
+    background: transparent !important;
+    font-size: 20px !important;
+    border-radius: 50% !important;
+    width: 30px;
+}
+.valunum input {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    padding: 0px 8px;
+    vertical-align: middle;
+    -moz-appearance:textfield;
+
+}
+.value-button:hover {
+  cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.ad {
+    display: inline-block;
+    width: 50%;
+    float: left;
+     font-weight: 500;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 19px;
+}
+.valunum {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+.forgu {
+    display: inline-block;
+    padding: 15px 0;
+}
+.ad div {
+    font-size: 15px;
+    font-weight: 400;
+}
+.newed{
+	display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+}
+.newed1
+{
+    padding: 10px 20px 0px 10px !important;
+}
+.newcan a{
+	float: left;
+	font-weight: 500;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 14px;
+    color: #484848;
+}
+.newapp a{
+	float: right;
+	font-weight: 500;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 14px;
+    color: #008489;
+    text-align: right;
+}
+.regular-checkbox {
+  background-color: #cc9e5d;
+}
+.regular-checkbox {
+    display: none;
+}
+.regular-checkbox + label {
+    background-color: #fff;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 0px;
+    display: inline-block;
+    position: relative;
+}
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+ 
+.regular-checkbox:checked + label {
+    background-color: #008489;
+    border: 1px solid #008489;
+    color:#fff;
+}
+ 
+.regular-checkbox:checked + label:after {
+    content: '\2714';
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    color: #fff;
+}
+ 
+ 
+.big-checkbox + label {
+    padding: 8px;
+    cursor: pointer;
+}
+ 
+.big-checkbox:checked + label:after {
+    font-size: 12px;
+    left: 3px;
+}
+.ent{
+	/*font-family: 'Roboto', sans-serif;*/
+    font-size: 19px;
+    color: #484848;
+    font-weight: 400;
+}
+.checking {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    width: 4%;
+}
+.for {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    width: 80%
+}
+.ent a{
+/*font-family: 'Roboto', sans-serif;*/
+    font-size: 19px;
+    color: #484848;
+    font-weight: 300;
+}
+.ent1 a{
+	/*font-family: 'Roboto', sans-serif;*/
+    font-size: 15px;
+    color: #484848;
+    font-weight: 300;
+}
+.for a:focus, .for a:hover{
+	text-decoration: none;
+}
+.imged {
+    display: inline-block;
+    float: right;
+    width: 6%;
+}
+.foredhole {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+.value-button:focus {
+    outline: none !important;
+    /*box-shadow: 0 0 2px 2px #008489 !important;*/
+}
+.value-button:active {
+    outline: none !important;
+    box-shadow: 0 0 2px 2px #008489 !important;
+}
+.exap1 .noUi-horizontal .noUi-handle{
+	width: 30px !important;
+	height: 30px !important;
+	top: -15px !important;
+	border:1px solid #008489 !important;
+}
+.lang-chang-label, .text-right {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 19px;
+    color: #484848;
+    font-weight: 400;
+}
+.ajust {
+    display: inline-block;
+    width: 100%;
+    padding: 0px 0 30px;
+}
+.exap1 .price-range-slider{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.morefit {
+    z-index: 1;
+    position: absolute;
+    top: 145px;
+    display: none;
+    width: 100%;
+    background: #fff;	
+    padding:40px 20px;
+        height: 100%;
+    overflow: auto;
+}
+.nw_more {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.moreroom {
+    display: inline-block;
+    width: 100%;
+        border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.avairoom {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.bedroom {
+    width: 40%;
+    float: left;
+}
+.valunum1 {
+    display: inline-block;
+    width:60%;
+    float: right;
+}
+.valunum1 input {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    padding: 0px 0px;
+    vertical-align: middle;
+}
+.morefit h4{
+	 /*font-family: 'Roboto', sans-serif;*/
+    font-size: 19px;
+    color: #484848;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.bedroom{
+	/*font-family: 'Roboto', sans-serif;*/
+    font-size: 19px;
+    color: #484848;
+    font-weight: 400;
+}
+/*.minside{
+	overflow: scroll;
+}*/
+
+.moreopt .checkbox {
+  display:inline-block;
+  position:relative;
+  text-align:left;
+  width:50px;
+  height:30px;
+  background-color:#008489;
+  overflow:hidden;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  border-radius:20px;
+  margin:10px;
+    box-shadow: 0 0 2px 2px #008489;
+}
+
+.moreopt .checkbox input {
+  display:block;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  margin:0 0;
+  cursor:pointer;
+  opacity:0;
+  filter:alpha(opacity=0);
+  z-index:2;
+}
+
+.moreopt .checkbox label {
+  background-color:#fff;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  border-radius:20px;
+  display:inline-block;
+  width:30px;
+  text-align:center;
+  font:bold 10px/28px Arial,Sans-Serif;
+  color:#999;
+  /*text-shadow:0 -1px 0 rgba(0,0,0,0.7);*/
+  -webkit-transition:margin-left 0.2s ease-in-out;
+  -moz-transition:margin-left 0.2s ease-in-out;
+  -ms-transition:margin-left 0.2s ease-in-out;
+  -o-transition:margin-left 0.2s ease-in-out;
+  transition:margin-left 0.2s ease-in-out;
+  margin:0px;
+  padding: 0 !important;
+  border: 1px solid #ccc;
+
+}
+
+.moreopt .checkbox label:before {
+  /*content:attr(data-off);*/
+  font-size: 15px;
+  font-weight: 100;
+    /*font-family: 'Roboto', sans-serif;  */
+     /*content: "✖";*/
+     content: "\2715";
+     color: #000;
+}
+
+.moreopt .checkbox input:checked + label {
+  margin-left:20px;
+  background-color:#fff;
+   color:#008489;
+}
+.moreopt .checkbox input:checked + label:before {
+  /*content:attr(data-on);*/
+  content: "\2713";
+}
+.moreopt {
+    display: inline-block;
+    width: 100%;
+        padding: 30px 0;
+    border-bottom: 1px solid #ccc;}
+.checkmore {
+    width: 60%;
+    float: right;
+}
+
+.checkbox.sdcheck{
+	background: #F2F2F2;
+	border: 1px solid #ccc;
+	 box-shadow: 0 0 0px 0px #008489;
+}
+.moreopt .checkbox:focus{
+box-shadow: 0 0 2px 2px #008489 !important;
+	outline: none;
+}
+.stay {
+    font-size: 14px;
+}
+.bedroom a {
+    color: #008489;
+    font-size: 14px;
+}
+.amti span {
+    font-size: 19px;
+    font-weight: 300;
+    padding-left: 15px;
+     /*font-family: 'Roboto', sans-serif;*/
+}
+.holecheck {
+    display: inline-block;
+    width: 100%;
+    padding-top: 5px;
+}
+.seead {
+    display: inline-block;
+    cursor: pointer;
+}
+.slidedow1 {
+    width: 100%;
+    display: none;
+}
+.slidedow2 {
+    width: 100%;
+    display: none;
+}
+.slidedow3 {
+    width: 100%;
+    display: none;
+}
+.newsed{
+
+}
+.seead1 .cls{
+	display: none;
+}
+.seead2 .cls{
+	display: none;
+}
+.seead3 .cls{
+	display: none;
+}
+.newsed .seeallame{
+	display: none;
+}
+.newsed .cls{
+	display:inline-block;
+	color: #008489;
+    font-weight: 500;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 15px;
+}
+.seead.newsed .fa{
+	transform: rotate(180deg);
+	transition: 0.2s all;
+	display: inline-block;
+	color: #008489;
+	font-size: 15px;
+	font-weight: 600;
+}
+.seeallame {
+    display: inline-block;
+    color: #008489;
+    font-weight: 500;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 15px;
+  }
+.seeallame .fa{
+    transform: rotate(180deg);
+	transition: 0.2s all;
+
+}
+.seead{
+color: #008489;
+	font-size: 15px;
+	font-weight: 600;
+	display: inline-block;
+	width: 100%;
+	padding-top: 10px;
+}
+.seead span {
+    padding-left: 5px;
+}
+.amtmore {
+    display: inline-block;
+    width: 100%;
+ }
+.amti {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 30px 0;
+}
+.morebot {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 15px;
+    /*display: inline-block;*/
+    float: right;
+    width: 65%;
+    background: #fff;
+    left: 0;
+}
+.holebot {
+    display: inline-block;
+    float: right;
+    margin: 15px 0;
+}
+.holebot a{
+  		font-weight: 500;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 19px;
+        color: #484848;
+        margin: 5px;
+}
+.seehome{
+	font-weight: 500;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 19px;
+        color: #fff !important;
+        background: #008489;
+        padding: 12px 24px;
+        border-radius: 4px;
+}
+.seehome:hover{
+	text-decoration: none;
+}
+.lotser {
+    position: absolute;
+    top: 55px;
+    z-index: 99;
+    width: 445px;
+    padding:40px 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: none;
+}
+.lotexp ul{
+	padding: 0;
+}
+.lotexp li{
+	display: inline-block;
+}
+.makent-header .nav .lotexp li {
+    display: inline;
+    float: left;
+    width: auto !important;
+    padding: 10px !important;
+}
+.lotexp button {
+    padding: 10px 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.lotexp button:hover, .lotexp button:focus{
+	box-shadow:0px 1px 5px 0px #ccc;
+	outline: none;
+}
+.lotexp h4 {
+   font-weight: 500;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 15px;
+        color: #484848;
+}
+.newt, .newt1, .newt2{
+	background: #fff !important;
+	border:1px solid #ccc !important;
+	color: #484848 !important;
+}
+.newgt, .newgt1, .newgt2{
+	background: #008489 !important;
+	color: #fff !important;
+}
+
+.exp_filter{
+	display: block;
+}
+.nameguest3 {
+    width: 375px;
+}
+.checking1 {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    width:8%;
+}
+.nameguest4 {
+    width: 550px;
+}
+.frt1{
+	display: none !important;
+}
+.morefit1{
+	display: none;
+}
+.morefit2{
+	display: none;
+}
+.morefit3{
+	display: none;
+}
+.morefit{
+	display: none;
+}
+.morefit4{
+	display: none;
+}
+.morefit5{
+    display: none;
+}
+.col-sm-12.row-space-2.col-md-4.col-sm-6.col-xs-12.hover-list-img.ng-scope {
+    padding: 0 8px;
+}
+.search-results.toggle-hide.back-change {
+    position: absolute;
+    top: 175px;
+    /*background: #f7f7f7;*/
+    width: 100%;
+    background: #fff;	
+}
+.filter-div {
+     display: none !important; 
+}
+.viewmap {
+    display: none;
+}
+.mapfil .search-results.toggle-hide.back-change {
+    position: absolute;
+    top: 150px;
+    background: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.exp_price span .icon.icon-instant-book {
+    right: 0;
+    top: 5px;
+    font-size: 14px;
+    color: #ffb400;
+    position: relative;
+}
+.nameguest2 .for.rt_label{
+	padding-top: 3px;
+}
+.morefit button[disabled] {
+    cursor: default;
+    opacity: 0.2;
+}
+.valunum button[disabled] {
+    cursor: default;
+    opacity: 0.2;
+}
+.avairoom button[disabled] {
+    cursor: default;
+    opacity: 0.2;
+}
+.int_icon .icon {
+    padding-left: 5px;
+    top: 2px;
+    position: relative;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+.morefit3 {
+    z-index: 99;
+    position: fixed;
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 40px 20px;
+    height: 100%;
+    overflow: auto;
+    right: 0px !important;
+    bottom: 0px !important;
+}
+
+.ecp_ho1 {
+    display: inline-block;
+    padding-top: 50px;
+        width: 100%;
+    padding-bottom: 50px;
+}
+}
+
+
+@media (max-width: 992px) {
+
+.hover-list-img.ng-scope:nth-child(3n+1){
+	clear: inherit !important;
+}
+.hover-list-img.ng-scope:nth-child(2n+1) {
+    clear: left !important;
+}
+.col-sm-12.row-space-2.col-md-4.col-sm-6.col-xs-12.hover-list-img.ng-scope {
+    width: 50%;
+}
+.container_1r1rje {
+    display: block !important;
+}
+/*.map.hide-sm-view.hidemap {
+    display: none !important;
+}*/
+.map-search .sidebar {
+    width: 100% !important;
+}
+.viewmap {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    top: 60px;
+}
+.map-search .sidebar {
+    width: 100% !important;
+}
+.map1.viewmaped {
+    width: 100%;
+}
+.viewmap .map1 {
+    display: block;
+    width: 100%;
+}
+label.hide-sm {
+    display: block !important;
+    visibility: visible !important;
+}
+.nameguest.moreopt{
+padding: 25px;
+}
+.text-muted.show-lg.show-sm {
+    display: block !important;
+}
+.nameguest.nameguest4.tr_nert {
+    width: 450px;
+}
+.nameguest.nameguest4.tr_nert .col-middle-alt{
+    width: 100%;
+}
+.nameguest2.moreopt {
+    padding: 25px;
+    width: 270px !important;
+}
+}
+
+@media (max-width: 767px) {
+.frt{
+	display: none !important;
+}
+.frt1{
+	display: inline-block !important;
+}
+.morefit{
+	display: none;
+}
+.footer-container.container-brand-dark{
+	display: none !important;
+}
+.morebot {
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    display: inline-block;
+    float: none;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    z-index: 3;
+}
+.morefit1 {
+    z-index: 99;
+    position: fixed;
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 40px 20px;
+    height:100%;
+    overflow: auto;
+ right: 0px !important;
+bottom: 0px !important;
+}
+.morefit5{
+       width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 99;
+    padding: 40px 20px;
+    overflow-y: auto;
+}
+.dbdate{
+    display: none;
+}
+.morefit5 .ranges{
+    display: none;
+}
+.morefit5 .daterangepicker.dropdown-menu {
+    position: inherit;
+}
+.morefit2 {
+    z-index: 99;
+    position: fixed;
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 40px 20px;
+    height:100%;
+    overflow: auto;
+ right: 0px !important;
+bottom: 0px !important;
+}
+.morefit3 {
+    z-index: 99;
+    position: fixed;
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 40px 20px;
+    height:100%;
+    overflow: auto;
+ right: 0px !important;
+bottom: 0px !important;
+}
+.guestbut1 {
+    position: fixed;
+    z-index: 1;
+    border-radius: 5px;
+    left: 0;
+    top: 100%;
+}
+.newdp{
+	opacity: 1;
+}
+.mapfil{
+	opacity: 1;
+}
+.hover-list-img.ng-scope:nth-child(2n+1) {
+    clear: left !important;
+}
+.hover-list-img.ng-scope:nth-child(3n+1){
+	clear: inherit !important;
+}
+.col-sm-12.row-space-2.col-md-4.col-sm-6.col-xs-12.hover-list-img.ng-scope {
+    width: 100%;
+}
+.cls12 {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    padding: 25px 0;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    border-bottom: 1px solid #ccc;
+}
+.cls12 .fa {
+    left: 25px;
+    position: relative;
+    font-size: 20px;
+}	
+.moreroom {
+    padding-top: 30px;
+}
+.checking{
+	width: 20px;
+}
+.name34 {
+    display: inline-block;
+    width: 100%;
+    /*padding-top: 40px;*/
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.example.exap1 {
+    display: inline-block;
+    z-index: 9999;
+    width: 100%;
+}
+.pricetag {
+    display: inline-block;
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid #ccc;
+}
+.amti h4 {
+    float: left;
+    width: 45%;
+    margin: 0;
+    padding-top: 5px;
+}
+.amti .seead{
+	float: right;
+	width: 55%;
+	padding: 0;
+	text-align: right;
+}
+.morefit1 h4, .morefit3 h4{
+	font-weight: 300;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 19px;
+        color: #484848;
+}
+.amti {
+padding: 20px 0;
+}
+.cls{
+	display: none;
+}
+.slidedow4 {
+    width: 100%;
+    display: none;
+}
+.slidedow {
+    width: 100%;
+    padding-top: 20px;
+}
+.valunum1 input{
+	width: 25%;
+}
+.bedroom{
+	width: 50%;
+}
+.valunum1{
+	width: 50%;text-align: right;
+}
+.checkhole .bedroom {
+    width: 70%;
+    float: left;
+}
+.checkmore {
+    width: 30%;
+    float: right;
+}
+.holemore{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 50px;
+	padding-top: 60px;
+}
+.holebot {
+    display: block;
+    float: none;
+    margin: 10px auto;
+    text-align: center;
+}
+.holebot a {
+    background: #FF5A5F;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+.allfill {
+    float: left;
+    width: 20%;
+}
+.allf {
+    float: right;
+    width: 80%;
+    text-align: right;
+    font-weight: 400;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 15px;
+        color: #484848;
+}
+.allf span a {
+    text-align: right;
+    float: right;
+    padding: 0 10px 0 40px;
+    color: #008489;
+}
+.lang-chang-label, .text-right {
+    font-weight: 300;
+}
+.adl {
+    display: inline-block;
+    width: 100%;
+    padding:50px 0;
+}
+.forgu {
+    display: inline-block;
+    padding: 15px 0;
+    width: 100%;
+}
+footer.page-container-responsive.ng-scope {
+    display: none;
+}
+.exp_hole {
+    display: inline-block;
+    width: 100%;
+}
+.exp_hole {
+    display: inline-block;
+    padding-top: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.ecp_ho1 {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px;
+}
+/*.outer-listings-container {
+    overflow-x: hidden;
+    padding-top: 150px;
+}*/
+.amti .seead.det{
+	width: 100%;
+	float: none;
+	text-align: left;
+	display: inline-block;
+	padding-top: 10px;
+}
+.hod {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+.hod .lotser1 {
+    left: 0;
+    width: 100%;
+     border: 1px solid #ccc;
+    background: #fff;
+  
+    padding:20px;
+    top: 0;
+    position: relative;
+}
+.hod .lotexp button {
+    padding: 10px 12px;
+    font-size: 14px;
+}
+.lotser{
+	display: none;
+}
+.lotser1{
+	display: none;
+}
+.whr a {
+    text-align: right;
+    float: right;
+    padding: 0 10px 0 40px;
+    color: #008489;
+}
+.whr{
+	 font-weight: 400;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-size: 15px;
+        color: #484848;
+}
+.search-modal-container .panel-header{
+	background: #fff;
+	border-bottom: none;
+}
+.filter-div {
+    display: none !important;
+}
+.ecp_ho1 {
+    display: inline-block;
+    padding-top: 50px;
+}
+.home_filter ul {
+    margin: 0;
+    padding: .0px 0 0;
+ }
+ .pricetag1 {
+    display: inline-block;
+    width: 100%;
+    padding: 60px 0 25px;
+    border-bottom: 1px solid #ccc;
+}
+.newbt .button_ipunk{
+/*display: inline-block !important;*/
+}
+.search-results.toggle-hide.back-change {
+    display: block !important;
+}
+
+.rt_label {
+    padding: 1px 15px !important;
+    cursor: pointer;
+}
+
+.clsfa,.clsfa2
+{
+    cursor: pointer;
+}
+.exp_price
+{
+    text-transform: lowercase;
+}
+.nameguest.moreopt{
+    padding: 40px 25px;
+}
+.moreopt .bedroom {
+    width: 80%;
+    float: left;
+}
+.moreopt .checkmore {
+    width: 20%;
+    float: right;
+}
+.slidedow .seead.newsed {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 0;
+}
+.home_filter {
+    padding: 15px 10px 15px;
+    top: 60px;
+ }
+.home_filter li {
+    margin-right: 3px;
+}
+.home_filter button {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+.search_check_label {
+    width: 90%;
+    }
+}
+/* To hide the div which is overlay to the map price marker */
+.gmnoprint
+{
+    /*display: none;*/
+    width: 0px !important;
+    height: 0px !important;
+}
+html[lang="ar"] .moreopt .bedroom {
+    width: 80%;
+    float: right;
+}
+html[lang="ar"] .moreopt .checkmore {
+    width: 20%;
+    float: left;
+}
+}

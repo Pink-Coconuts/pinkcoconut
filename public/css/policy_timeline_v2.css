@@ -1,0 +1,119 @@
+.row-space-top-11 {
+    margin-top: 68.75px
+}
+
+.timeline-container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative
+}
+
+.padding-space-top-3 {
+    padding-top: 18.75px
+}
+
+.timeline-point {
+    position: absolute;
+    right: 55px;
+    top: 0
+}
+.timeline-point .tooltip:before {
+     border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #ccc;
+    border-width: 10px;
+    transform: rotate(-180deg);
+    right: 5px;
+    left: auto;
+}
+.timeline-point .tooltip:after {
+right: 6px;
+left: auto;
+}
+.timeline-point-tooltip {
+    position: absolute;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    padding: 6px 10px;
+    left: auto;
+    right: -15px;
+    top: -60px;
+   
+  
+}
+.timeline-point-tooltip span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: inline-block;
+}
+.timeline-point-marker {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    background: #ffffff
+}
+
+.timeline-point-label {
+    position: absolute;
+    left: 50%;
+    top: 56px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    max-width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.timeline-fineprint {
+    margin-top: 10px
+}
+
+.timeline-segment {
+    text-align: center;
+    height: 24px
+}
+
+.timeline-segment-refundable {
+    background-color: #3fb34f
+}
+
+.timeline-segment-partly-refundable {
+    background-color: #ffb400
+}
+
+.timeline-segment-nonrefundable {
+    background-color: #ff5a5f
+}
+
+.row-flush {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.row-flush>.col-4 {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    padding-left: 0;
+    padding-right: 25px
+}
+
+
+html[lang="ar"] .timeline-point-tooltip{
+    left: -15px;
+    right: auto;
+}
+html[lang="ar"] .timeline-point .tooltip:before {
+    left: 5px;
+    right: auto;
+}
+html[lang="ar"] .timeline-point .tooltip:after {
+    left: 6px;
+    right: auto;
+}

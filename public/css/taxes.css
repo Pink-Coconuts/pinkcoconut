@@ -1,0 +1,287 @@
+#taxes {
+    margin-top: 30px
+}
+
+#taxes.full {
+    margin-top: 0;
+    min-height: 368px
+}
+
+#taxes h1,
+#taxes h2,
+#taxes h3,
+#taxes p,
+#taxes table {
+    margin: 0 0 15px 0
+}
+
+#taxes h3 {
+    font-size: 16px;
+    font-weight: normal
+}
+
+#taxes .table tfoot td {
+    padding: 12px 8px 8px 8px;
+    border-top: none
+}
+
+#taxes .btn-group input.error+label.btn {
+    color: #b94a48
+}
+
+#taxes .clearfix {
+    clear: both
+}
+
+#taxes .tax-forms thead {
+    border-bottom: 1px solid #dce0e0;
+    text-align: left
+}
+
+#taxes .tax-forms td {
+    vertical-align: middle
+}
+
+#taxes .tax-forms tbody tr.tax-forms-form-deleted {
+    color: #aaa
+}
+
+#taxes .tax-forms tbody td:first-child {
+    font-weight: bold
+}
+
+#taxes .tax-forms tbody td:last-child {
+    text-align: right
+}
+
+#taxes .tax-choose-form .tax-choose-form-options {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+#taxes .tax-choose-form .tax-choose-form-option {
+    display: block;
+    float: left;
+    width: 150px;
+    margin: 0 15px 10px 0;
+    border: 1px solid #dce0e0;
+    cursor: pointer;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+#taxes .tax-choose-form .tax-choose-form-option-head {
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    border-bottom: 1px solid #dce0e0;
+    background-color: #f5f5f5
+}
+
+#taxes .tax-choose-form .tax-choose-form-option-body {
+    padding: 15px 15px 5px 15px;
+    min-height: 160px
+}
+
+#taxes .tax-choose-form .tax-choose-form-option-body div {
+    margin: 0 0 10px 0
+}
+
+#taxes .tax-choose-form .tax-choose-form-option:hover {
+    border-color: #82888a
+}
+
+#taxes .tax-choose-form .tax-choose-form-option:hover .tax-choose-form-option-head {
+    color: #fff;
+    background-color: #82888a
+}
+
+#taxes .tax-choose-form .tax-choose-form-option.selected {
+    border-color: #565a5c
+}
+
+#taxes .tax-choose-form .tax-choose-form-option.selected .tax-choose-form-option-head {
+    color: #fff;
+    background-color: #565a5c
+}
+
+#taxes .tax-form h2 {
+    margin: 0 0 15px 0 !important
+}
+
+#taxes .tax-form table {
+    width: 100%;
+    margin: 20px 0 0 0
+}
+
+#taxes .tax-form td {
+    width: 50%;
+    padding: 0 30px 25px 0;
+    vertical-align: top
+}
+
+#taxes .tax-form h4 {
+    margin: 15px 0 5px 0;
+    font-size: 16px;
+    font-weight: normal
+}
+
+#taxes .tax-form label {
+    font-weight: bold
+}
+
+#taxes .tax-form label.inline {
+    font-weight: normal
+}
+
+#taxes .tax-form small {
+    display: block;
+    margin: 0 0 5px 0;
+    color: #82888a;
+    font-size: 12px;
+    line-height: 1.25
+}
+
+#taxes .tax-form select,
+#taxes .tax-form input[type="text"] {
+    display: block;
+    width: 300px;
+    margin: 0 0 5px 0
+}
+
+#taxes .tax-form input[type="text"].short {
+    width: 120px
+}
+
+#taxes .tax-form input.electronic-delivery,
+#taxes .tax-form input.certified {
+    float: left;
+    margin: 2px 5px 0 0
+}
+
+#taxes .tax-form select.date {
+    display: inline
+}
+
+#taxes .tax-form select.date.year,
+#taxes .tax-form select.date.day {
+    width: 65px
+}
+
+#taxes .tax-form select.date.month {
+    width: 100px
+}
+
+#taxes .tax-form .icon-spinner {
+    margin: 0 0 -5px 10px
+}
+
+#taxes .tax-form tfoot .icon-lock {
+    display: block;
+    float: right;
+    font-size: 30px;
+    color: #cacccd
+}
+
+#taxes .tax-form .tax-form-w8ben-certify,
+#taxes .tax-form .tax-form-w8eci-certify {
+    margin: 0 0 5px 0
+}
+
+#taxes .tax-form .tax-form-w8ben-certify ul,
+#taxes .tax-form .tax-form-w8eci-certify ul {
+    margin: 0 0 5px 25px
+}
+
+#taxes .tax-form .tax-form-w8ben-certify ul ul,
+#taxes .tax-form .tax-form-w8eci-certify ul ul {
+    margin: 10px 0 0 40px;
+    list-style: lower-latin
+}
+
+#taxes .tax-form .tax-form-w8ben-certify p,
+#taxes .tax-form .tax-form-w8ben-certify li,
+#taxes .tax-form .tax-form-w8eci-certify p,
+#taxes .tax-form .tax-form-w8eci-certify li {
+    margin: 0 0 10px 0
+}
+
+#taxes .tax-form.tax-form-w9 input[name="tax_id"] {
+    display: inline-block;
+    margin: 0 10px 6px 0
+}
+
+#taxes .tax-form.tax-form-w9 select[name="permanent_address_state"] {
+    float: left;
+    width: 150px;
+    margin: 0 5px 0 0
+}
+
+#taxes .tax-form.tax-form-w9 input[name="permanent_address_postal_code"] {
+    width: 85px
+}
+
+#taxes .tax-form.tax-form-w9 label.radio.inline {
+    position: relative;
+    top: -3px
+}
+
+#taxes .tax-form.tax-form-w8ben table {
+    margin: -15px 0 0 0
+}
+
+#taxes .tax-form.tax-form-w8ben input[type="text"].inline {
+    display: inline;
+    padding: 2.5px
+}
+
+#taxes .tax-form.tax-form-w8ben .tax-form-w8ben-treaty-rates {
+    line-height: 0
+}
+
+#taxes .tax-form.tax-form-w8ben .tax-form-w8ben-treaty-rates input {
+    display: inline;
+    position: relative;
+    top: 2px;
+    padding: 2.5px
+}
+
+#taxes .tax-form.tax-form-w8ben .tax-form-w8ben-treaty-country select {
+    position: relative;
+    display: inline
+}
+
+#taxes .tax-form.tax-form-w8eci table {
+    margin: -15px 0 0 0
+}
+
+#taxes .tax-form.tax-form-w8eci input[name="tax_id"] {
+    display: inline-block;
+    margin: 0 10px 6px 0
+}
+
+#taxes .tax-form.tax-form-w8eci textarea[name="w8eci9"] {
+    margin: 5px 0 0 0;
+    width: 100%;
+    height: 70px;
+    resize: none
+}
+
+#taxes .tax-form.tax-form-w8eci label.radio.inline {
+    position: relative;
+    top: -3px
+}
+
+#taxes ul.tax-faqs {
+    margin: -5px 0 0 0;
+    padding: 0;
+    list-style: none
+}
+
+#taxes ul.tax-faqs li {
+    margin: 0 0 10px 0
+}

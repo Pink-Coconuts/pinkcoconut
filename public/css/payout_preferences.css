@@ -1,0 +1,29 @@
+.birthdate-row {
+    margin-left: 0
+}
+
+.birthdate-row .select {
+    margin-right: 10px
+}
+
+#modal-add-payout-set-address {
+   max-width: 740px;
+    height: auto;
+
+}
+
+.phone-number-prefix-select {
+    width: 12%
+}
+
+@media (max-width: 767px) {
+#modal-add-payout-set-address {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.poppayout .modal-cell {
+    padding: 50px 20px !important;
+    height: auto !important;
+}
+}

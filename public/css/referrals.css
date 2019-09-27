@@ -1,0 +1,608 @@
+.twitter-typeahead .tt-menu {
+    box-sizing: border-box;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top: none;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    padding: 1px
+}
+
+.twitter-typeahead .tt-suggestion {
+    display: block;
+    cursor: default;
+    padding: 0.4em 0.6em;
+    font-size: 14px;
+    line-height: 44px;
+    height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #e6e6e6;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left
+}
+
+.twitter-typeahead .tt-suggestion:hover,
+.twitter-typeahead .tt-cursor {
+    color: #fff;
+    background: #ff5a5f
+}
+
+.twitter-typeahead .tt-highlight {
+    font-weight: bold;
+    color: #565a5c
+}
+
+#contact-modal .panel-footer {
+    position: relative
+}
+
+#contact-modal .modal-content {
+    max-width: 600px
+}
+
+#info_message {
+    display: inline
+}
+
+#success_message {
+    display: none
+}
+
+#error_message {
+    display: none
+}
+
+.panel-body-fixed {
+    overflow-x: hidden;
+    height: 500px;
+    width: 100%;
+    padding: 0
+}
+
+.panel-body-list {
+    margin-bottom: -12.5px
+}
+
+.modal-status-section {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 2px
+}
+
+.modal-sent h5 {
+    line-height: 50px;
+    text-align: center;
+    margin: 0
+}
+
+.error-section {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+section {
+    margin: 0px 0px 45px 0px
+}
+
+.input-addon input {
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+    -ms-border-bottom-right-radius: 0;
+    -o-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+    -ms-border-top-right-radius: 0;
+    -o-border-top-right-radius: 0;
+    border-top-right-radius: 0
+}
+
+#share-container .btn-facebook {
+    border-color: #3B5998;
+    border-bottom-color: #263a63;
+    background-color: #3B5998;
+    color: #ffffff
+}
+
+#share-container .btn-weibo {
+    border-color: #d52b2a;
+    border-bottom-color: #8a1c1b;
+    background-color: #d52b2a;
+    color: #ffffff
+}
+
+.share-box {
+    float: right;
+    margin-top: 6px
+}
+
+.share-item {
+    float: right;
+    margin-left: 10px
+}
+
+.instructions-text {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 2px
+}
+
+.twitter-share-button {
+    display: inline-block
+}
+
+.copy-heading {
+    font-weight: normal
+}
+
+.contact-modal-table {
+    width: 100%;
+    table-layout: fixed;
+    overflow-x: hidden
+}
+
+.recommended {
+    width: 156px
+}
+
+.contact-detail {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.contact-checkbox-wrapper {
+    width: 28px;
+    float: left
+}
+
+.contact-checkbox-floater {
+    height: 50%
+}
+
+.contact-checkbox {
+    clear: both;
+    height: 240px;
+    position: relative
+}
+
+#sent-referrals .sent-referral {
+    border-top: 1px solid #c4c4c4;
+    padding: 10px 0
+}
+
+#sent-referrals .sent-referral:first-child {
+    border-top: 0
+}
+
+#sent-referrals .sent-referral .referred-profile {
+    height: 50px;
+    width: 50px
+}
+
+#sent-referrals .sent-referral .referred-row {
+    height: 50px
+}
+
+label.checkbox-label {
+    padding: 0
+}
+
+.contact-search {
+    padding: 10px;
+    border-radius: 0;
+    padding-left: 37px
+}
+
+.contact-search-wrapper {
+    position: relative
+}
+
+.contact-search-icon {
+    position: absolute;
+    top: 21px;
+    left: 31px;
+    font-size: 21px;
+    color: #aaa
+}
+
+.loading-pane {
+    height: 50px;
+    margin-bottom: 50px
+}
+
+.loading-pane.disabled {
+    display: none
+}
+
+.contact_importer .email_link_text {
+    position: absolute;
+    top: 64px;
+    width: 128px;
+    text-decoration: inherit
+}
+
+.contact_importer .email_link_container {
+    height: 128px;
+    width: 128px;
+    font-size: 110%;
+    font-weight: bold;
+    display: inline-block;
+    position: relative
+}
+
+.contact_importer .email_link_container .email_link {
+    cursor: pointer;
+    color: white
+}
+
+.contact_importer .email_link_container .email_link:hover {
+    text-decoration: underline
+}
+
+.contact_importer .email_icon {
+    position: absolute;
+    left: 32px;
+    height: 64px;
+    width: 64px;
+    background-size: cover
+}
+
+.contact_importer .yahoo_email_icon {
+    background: url('../images/yahoo-e5828900d6fc3efb0a6b65c22f623ebd.png') no-repeat
+}
+
+.contact_importer .gmail_email_icon {
+    background: url('../images/gmail-0dd9c2ee3a7b5d421cbd024916b6a09f.png') no-repeat
+}
+
+.contact_importer .windowslive_email_icon {
+    background: url('../images/windowslive-6d2614887e50b45cf083c91de5333a28.png') no-repeat
+}
+
+.referrals-heading {
+    color: white;
+    text-shadow: 0px 0px 3px #666;
+    line-height: 1.4
+}
+
+.hero-inner {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.button-container {
+    text-align: center
+}
+
+.import-btn {
+    min-width: 300px
+}
+
+.share-title {
+    margin-right: 8px
+}
+
+.share-triggers {
+    margin-right: -8px
+}
+
+.share-triggers .qzone-logo {
+    background: url('../images/p3_sprite-49be4793d97ade0afa144d816132c823.png') no-repeat 0 0;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'>\a                 <filter id='grayscale'><feColorMatrix type='matrix' values='0.3333\a                 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/>\a                 </filter></svg>#grayscale")
+}
+
+.share-triggers .qzone-logo {
+    height: 20px;
+    width: 20px;
+    background-position: 0 -208px
+}
+
+.share-triggers .social-icon-size {
+    font-size: 16px
+}
+
+.share-btn {
+    min-width: 16px;
+    margin-right: 8px
+}
+
+.share-btn:hover,
+.share-btn:active,
+.share-btn:focus {
+    text-decoration: none;
+    outline: none
+}
+
+.more-btn {
+    cursor: pointer
+}
+
+#book_it .inline-flag-trigger {
+    line-height: 30px
+}
+
+.rounded-icons .share-triggers {
+    margin-right: 0
+}
+
+.rounded-icons .more-btn {
+    line-height: 28px
+}
+
+.rounded-icons a,
+.rounded-icons .more-btn {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: inline-block
+}
+
+.rounded-icons a[data-network="qzone"],
+.rounded-icons .more-btn[data-network="qzone"] {
+    vertical-align: bottom
+}
+
+.rounded-icons a[data-network="qzone"] .qzone-logo,
+.rounded-icons .more-btn[data-network="qzone"] .qzone-logo {
+    margin-top: 4px;
+    width: 21px;
+    -ms-transform: scale(0.7, 0.7);
+    -webkit-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7)
+}
+
+.rounded-icons a i,
+.rounded-icons .more-btn i {
+    line-height: 28px
+}
+
+.vertical-list-divider {
+    height: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-left: 1px solid #c4c4c4;
+    display: inline-block
+}
+
+.boxed-icons .share-triggers {
+    width: 100%
+}
+
+.boxed-icons .btn .icon.icon-facebook {
+    margin-right: 0
+}
+
+.boxed-icons .icon-envelope {
+    padding-right: 3px
+}
+
+.boxed-icons a,
+.boxed-icons .more-btn {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 0;
+    white-space: normal;
+    line-height: 24px
+}
+
+.boxed-icons .btn-group .btn+.btn {
+    margin-left: 0
+}
+
+.boxed-icons .btn {
+    font-weight: normal;
+    width: 33.33333333%
+}
+
+.boxed-icons .btn:last-child {
+    float: right
+}
+
+.referrals-invitation-hero {
+    min-height: 400px;
+    padding: 20px 0 20px 0
+}
+
+.referrals-hero {
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .referrals-hero {
+        height: 150px
+    }
+}
+
+.referrals-hero.trip-journal-hero {
+    height: 350px
+}
+
+.referrals-bg-img {
+    background: transparent url('../images/hero-bg-6550ae96009423e8a4d69c2397e584f1.jpg') no-repeat 50% 50%;
+    background-size: cover
+}
+
+.profile-circle-responsive {
+    width: 30%;
+    max-width: 180px
+}
+
+.profile-img-responsive {
+    max-width: 180px;
+    max-height: 180px
+}
+
+.mobile-feature {
+    position: relative;
+    width: 357px;
+    height: 600px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/iphone5s-white-9943afeaac838366c180d5559fef2266.png", sizingMethod="scale")
+}
+
+.mobile-feature:nth-child(n) {
+    background: transparent url('../images/iphone5s-white-9943afeaac838366c180d5559fef2266.png') left center no-repeat;
+    background-size: 100%;
+    filter: none
+}
+
+.mobile-feature .screenshot {
+    position: absolute;
+    left: 69px;
+    top: 85px
+}
+
+.mobile-android {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/nexus5-bd24af213325e1b71f1d930799ba52df.png", sizingMethod="scale")
+}
+
+.mobile-android:nth-child(n) {
+    background: transparent url('../images/nexus5-bd24af213325e1b71f1d930799ba52df.png') left center no-repeat;
+    background-size: 100%;
+    filter: none
+}
+
+.mobile-android .screenshot {
+    left: 53px;
+    top: 52px
+}
+
+.mobile-feature-medium {
+    width: 283px;
+    height: 547px;
+    background-size: 100%
+}
+
+.mobile-feature-medium .screenshot {
+    left: 54px;
+    top: 103px
+}
+
+.mobile-feature-medium.mobile-android .screenshot {
+    left: 40px;
+    top: 85px
+}
+
+.feature-hero {
+    position: relative;
+    margin-bottom: 70px;
+    overflow: hidden
+}
+
+.feature-hero h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 18px
+}
+
+.feature-hero h2 {
+    font-size: 37px;
+    line-height: 1.2;
+    margin-bottom: 15px
+}
+
+.feature-hero h3 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: bold
+}
+
+.feature-hero p {
+    font-size: 17px;
+    line-height: 1.45;
+    margin-bottom: 18px;
+    color: #67696a
+}
+
+.feature-hero p.lede {
+    font-size: 21px;
+    color: #393c3d
+}
+
+.feature-hero .panel-padding {
+    padding-bottom: 30px
+}
+
+.feature-hero img.feature {
+    outline: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.feature-hero-full-bleed {
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: none;
+    width: 100%;
+    height: 700px
+}
+
+.feature-hero .overlaid {
+    position: relative
+}
+
+.feature-hero .overlaid .content {
+    position: absolute;
+    top: 0;
+    width: 500px
+}
+
+.feature-hero.invert .overlaid .content h1,
+.feature-hero.invert .overlaid .content h2,
+.feature-hero.invert .overlaid .content h3,
+.feature-hero.invert .overlaid .content h4,
+.feature-hero.invert .overlaid .content h5,
+.feature-hero.invert .overlaid .content h6,
+.feature-hero.invert .overlaid .content p {
+    color: #fff
+}
+
+.feature-hero.invert .overlaid .content h2 {
+    font-size: 40px
+}
+
+.profile-circle-align-120 {
+    margin-top: -60px
+}
+
+.trip-journal-cover {
+    background-size: cover;
+    background-position: 50% 50%
+}
+
+.trip-journal-btn {
+    position: relative;
+    overflow: hidden
+}
+
+.trip-journal-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0
+}
+
+.media-trip-journal {
+    height: 250px
+}

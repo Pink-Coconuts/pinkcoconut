@@ -1,0 +1,39 @@
+.password-strength--weak {
+    color: #b23f42
+}
+
+.password-strength--good {
+    color: #ffb400
+}
+
+.password-strength--strong {
+    color: #3fb34f
+}
+
+.password-strength {
+    text-align: left;
+    padding-top: 5px
+}
+
+.col-lg-4.col-center {
+    min-width: 310px
+}
+
+#forgot_password_container a.cancel {
+    display: none
+}
+
+#forgot_password_container.xhr a.cancel {
+    display: inline
+}
+
+@media (max-width: 767px) {
+    .page-container-auth {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden
+    }
+    .page-container-auth .panel {
+        border: none
+    }
+}

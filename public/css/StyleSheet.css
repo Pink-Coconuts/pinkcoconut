@@ -1,0 +1,29 @@
+#accu_screen {
+    background-color: #000000;
+    /* for IE */
+    filter: alpha(opacity=30);
+    /* CSS3 standard */
+    opacity: 0.3;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+#accu_keypad {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 0px;
+    z-index: 1010;
+}
+
+#accu_loading {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 0px;
+    z-index: 1020;
+}
